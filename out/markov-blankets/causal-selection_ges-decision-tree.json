@@ -1,0 +1,21 @@
+{
+    "y": [
+        "TARGET"
+    ],
+    "parents": [
+        "fico",
+        "flag_fthb",
+        "cd_msa",
+        "dti",
+        "orig_upb",
+        "int_rt",
+        "channel",
+        "st",
+        "zipcode",
+        "cnt_borr",
+        "servicer_name",
+        "pgrm_ind"
+    ],
+    "spouses": [],
+    "children": []
+}

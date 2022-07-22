@@ -1,0 +1,351 @@
+{
+    "params": {
+        "best": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 0.75,
+                    "class_weight": "balanced",
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_1": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 1,
+                    "class_weight": null,
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_2": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 1,
+                    "class_weight": "balanced",
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_3": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 0.75,
+                    "class_weight": null,
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_4": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 0.75,
+                    "class_weight": "balanced",
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_5": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 0.5,
+                    "class_weight": null,
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_6": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "LogisticRegression",
+                "predictive_init": {
+                    "penalty": "l2",
+                    "C": 0.5,
+                    "class_weight": "balanced",
+                    "n_jobs": -1
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        }
+    },
+    "train_scores": {
+        "best": [
+            0.8665476772780096,
+            0.8819192673814388,
+            0.8268760168932082,
+            0.8226396491352801,
+            0.7836805663176105
+        ],
+        "gs_1": [
+            0.8651565316724075,
+            0.8809067577430837,
+            0.8263587456684633,
+            0.8221811587315291,
+            0.7836157029341659
+        ],
+        "gs_2": [
+            0.8665476772780096,
+            0.8819193673488214,
+            0.8268760368866847,
+            0.8226397690961392,
+            0.7836801272423995
+        ],
+        "gs_3": [
+            0.8651634372055919,
+            0.8809080173321049,
+            0.8263603051596325,
+            0.8221820184510197,
+            0.7836154734175784
+        ],
+        "gs_4": [
+            0.8665476772780096,
+            0.8819192673814388,
+            0.8268760168932082,
+            0.8226396491352801,
+            0.7836805663176105
+        ],
+        "gs_5": [
+            0.8651775276865975,
+            0.8809079773451519,
+            0.8263643238484149,
+            0.8221835379552358,
+            0.7836181278268086
+        ],
+        "gs_6": [
+            0.8665477371525748,
+            0.8819204070096007,
+            0.8268763367888325,
+            0.8226397091157096,
+            0.7836803767169512
+        ]
+    },
+    "test_scores": {
+        "best": [
+            0.8173897271268058,
+            0.8481468128777164,
+            0.8289098338629611,
+            0.828806713442217,
+            0.7397969732187
+        ],
+        "gs_1": [
+            0.8118195826645265,
+            0.8495315272755904,
+            0.8294087008133921,
+            0.8276954992638126,
+            0.7397659926930906
+        ],
+        "gs_2": [
+            0.8173881219903693,
+            0.8481468128777163,
+            0.828909833862961,
+            0.828806713442217,
+            0.739796812697842
+        ],
+        "gs_3": [
+            0.8118484751203852,
+            0.8495321648052394,
+            0.8294134822857606,
+            0.8277018745603038,
+            0.7397659926930905
+        ],
+        "gs_4": [
+            0.8173897271268058,
+            0.8481468128777164,
+            0.8289098338629611,
+            0.828806713442217,
+            0.7397969732187
+        ],
+        "gs_5": [
+            0.811909470304976,
+            0.8495458716926955,
+            0.8294236827601463,
+            0.8277139876236369,
+            0.7397679189433874
+        ],
+        "gs_6": [
+            0.8173932584269663,
+            0.8481442627591199,
+            0.8289079212740138,
+            0.8288063946773925,
+            0.7397969732187
+        ]
+    }
+}

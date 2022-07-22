@@ -1,0 +1,13 @@
+[
+    "cnt_units",
+    "occpy_sts",
+    "cltv",
+    "ltv",
+    "ppmt_pnlty",
+    "prop_type",
+    "loan_purpose",
+    "orig_loan_term",
+    "seller_name",
+    "flag_sc",
+    "int_only_ind"
+]

@@ -1,0 +1,95 @@
+{
+    "train_score": 0.7765779781359039,
+    "time": {
+        "total": [
+            "02:01",
+            121.05658745765686
+        ],
+        "causal": [
+            "02:01",
+            121.01159048080444
+        ],
+        "predictive": [
+            "00:00",
+            0.04006242752075195
+        ]
+    },
+    "shapes": {
+        "causal": [
+            [
+                123823,
+                27
+            ],
+            [
+                123823,
+                1
+            ]
+        ],
+        "predictive": [
+            [
+                123823,
+                2
+            ],
+            [
+                123823
+            ]
+        ]
+    },
+    "h_value": 0.0,
+    "params": {
+        "init": {
+            "causal_model": "ICALiNGAM",
+            "predictive_model": "DecisionTreeClassifier",
+            "causal_init": {
+                "thresh": 0.5
+            },
+            "predictive_init": {
+                "max_depth": 3,
+                "max_features": "sqrt",
+                "min_samples_leaf": 0.1,
+                "class_weight": "balanced",
+                "random_state": 123
+            }
+        },
+        "fit": {
+            "X_labels": [
+                "fico",
+                "flag_fthb",
+                "cd_msa",
+                "mi_pct",
+                "cnt_units",
+                "occpy_sts",
+                "cltv",
+                "dti",
+                "orig_upb",
+                "ltv",
+                "int_rt",
+                "channel",
+                "ppmt_pnlty",
+                "prod_type",
+                "st",
+                "prop_type",
+                "zipcode",
+                "loan_purpose",
+                "orig_loan_term",
+                "cnt_borr",
+                "seller_name",
+                "servicer_name",
+                "flag_sc",
+                "pgrm_ind",
+                "rel_ref_ind",
+                "prop_val_meth",
+                "int_only_ind"
+            ],
+            "y_label": "TARGET",
+            "threshold": 0,
+            "causal_undersampling_ratio": null,
+            "causal_params": {},
+            "predictive_undersampling_ratio": null,
+            "predictive_params": {},
+            "random_state": 123
+        },
+        "predict": {},
+        "evaluate": {}
+    }
+}

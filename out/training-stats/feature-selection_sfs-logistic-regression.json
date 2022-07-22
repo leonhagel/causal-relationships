@@ -1,0 +1,57 @@
+{
+    "train_score": 0.8724849337106043,
+    "time": {
+        "total": [
+            "01:30",
+            90.30033946037292
+        ],
+        "predictive": [
+            "00:00",
+            0.4572727680206299
+        ]
+    },
+    "shapes": {
+        "selection": [
+            [
+                123823,
+                27
+            ],
+            [
+                123823
+            ]
+        ],
+        "predictive": [
+            [
+                123823,
+                16
+            ],
+            [
+                123823
+            ]
+        ]
+    },
+    "params": {
+        "init": {
+            "selection_model": "sfs",
+            "predictive_model": "LogisticRegression",
+            "selection_init": {
+                "forward": true,
+                "floating": false,
+                "scoring": "accuracy",
+                "cv": 3
+            },
+            "predictive_init": {
+                "penalty": "l2",
+                "C": 0.75,
+                "class_weight": "balanced",
+                "n_jobs": -1
+            }
+        },
+        "fit": {
+            "selection_params": {},
+            "predictive_params": {}
+        },
+        "predict": {},
+        "evaluate": null
+    }
+}

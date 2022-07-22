@@ -1,0 +1,71 @@
+{
+    "train_score": 0.8678909928194727,
+    "time": [
+        "00:23",
+        23.268879175186157
+    ],
+    "shapes": [
+        [
+            2544,
+            27
+        ],
+        [
+            2544,
+            1
+        ]
+    ],
+    "h_value": 0.04562950134277344,
+    "params": {
+        "init": {
+            "reg_lambda": 15,
+            "reg_beta": 3,
+            "w_threshold": -3,
+            "sigmoid_output": [
+                0
+            ],
+            "ckpt_file": "../cache/tmp.ckpt",
+            "loss_function": "bce"
+        },
+        "fit": {
+            "X_labels": [
+                "fico",
+                "flag_fthb",
+                "cd_msa",
+                "mi_pct",
+                "cnt_units",
+                "occpy_sts",
+                "cltv",
+                "dti",
+                "orig_upb",
+                "ltv",
+                "int_rt",
+                "channel",
+                "ppmt_pnlty",
+                "prod_type",
+                "st",
+                "prop_type",
+                "zipcode",
+                "loan_purpose",
+                "orig_loan_term",
+                "cnt_borr",
+                "seller_name",
+                "servicer_name",
+                "flag_sc",
+                "pgrm_ind",
+                "rel_ref_ind",
+                "prop_val_meth",
+                "int_only_ind"
+            ],
+            "y_label": "TARGET",
+            "val_size": 0.2,
+            "undersampling_ratio": 0.3333333333333333,
+            "threshold": null,
+            "build": {},
+            "kwargs": {
+                "verbose": 0
+            }
+        },
+        "predict": {},
+        "evaluate": {}
+    }
+}

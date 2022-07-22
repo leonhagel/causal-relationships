@@ -1,0 +1,32 @@
+{
+    "y": [
+        "TARGET"
+    ],
+    "parents": [],
+    "spouses": [
+        "fico",
+        "flag_fthb",
+        "cd_msa",
+        "mi_pct",
+        "cltv",
+        "dti",
+        "orig_upb",
+        "ltv",
+        "int_rt",
+        "channel",
+        "st",
+        "prop_type",
+        "zipcode",
+        "loan_purpose",
+        "orig_loan_term",
+        "cnt_borr",
+        "seller_name",
+        "servicer_name",
+        "rel_ref_ind"
+    ],
+    "children": [
+        "flag_fthb",
+        "servicer_name",
+        "pgrm_ind"
+    ]
+}

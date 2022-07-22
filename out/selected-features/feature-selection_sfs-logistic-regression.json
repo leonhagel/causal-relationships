@@ -1,0 +1,18 @@
+[
+    "fico",
+    "cnt_units",
+    "occpy_sts",
+    "dti",
+    "orig_upb",
+    "ppmt_pnlty",
+    "prod_type",
+    "st",
+    "prop_type",
+    "zipcode",
+    "orig_loan_term",
+    "cnt_borr",
+    "seller_name",
+    "servicer_name",
+    "flag_sc",
+    "pgrm_ind"
+]

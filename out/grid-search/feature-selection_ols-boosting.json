@@ -1,0 +1,1858 @@
+{
+    "params": {
+        "best": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_1": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_10": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_11": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_12": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_13": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_14": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_15": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_16": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_17": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_18": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_19": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_2": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_20": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_21": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_22": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_23": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_24": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.01,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_25": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_26": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_27": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_28": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_29": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_3": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_30": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_31": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_32": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_33": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_34": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_35": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_36": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.001,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_4": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_5": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_6": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_7": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_8": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.25,
+                    "min_samples_leaf": 1,
+                    "max_depth": 2,
+                    "max_features": "sqrt"
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_9": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "ols",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 0.5,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        }
+    },
+    "train_scores": {
+        "best": [
+            0.7426639686921487,
+            0.7869459852639282,
+            0.7410174008424532,
+            0.8068551692953623,
+            0.7855523838580705
+        ],
+        "gs_1": [
+            0.7467446697865839,
+            0.7977720129476155,
+            0.7481078373748213,
+            0.8041296685717385,
+            0.8009983811895709
+        ],
+        "gs_10": [
+            0.7317108650062465,
+            0.7658007645265502,
+            0.7284824007622792,
+            0.7995233815110805,
+            0.7722031303228514
+        ],
+        "gs_11": [
+            0.7111947853724362,
+            0.7443689572966132,
+            0.70527519281009,
+            0.7676057555940647,
+            0.7367071227239763
+        ],
+        "gs_12": [
+            0.7074066713198518,
+            0.7429910868681767,
+            0.6970394599650025,
+            0.7702076966327427,
+            0.7465898774682787
+        ],
+        "gs_13": [
+            0.6960397745139841,
+            0.7250678348668397,
+            0.6804970674168432,
+            0.7510011333502103,
+            0.7289972613881192
+        ],
+        "gs_14": [
+            0.6954228669107367,
+            0.7305505659613382,
+            0.6841162965347666,
+            0.759079457554589,
+            0.7322533533421237
+        ],
+        "gs_15": [
+            0.6695474548639582,
+            0.6942268476641442,
+            0.6567030009448517,
+            0.7264184341932913,
+            0.703008200068851
+        ],
+        "gs_16": [
+            0.6794142942301595,
+            0.7027678509056066,
+            0.6629285396760746,
+            0.7455240504128313,
+            0.7081773826331504
+        ],
+        "gs_17": [
+            0.7029757040191081,
+            0.7288969455046208,
+            0.6951920427402947,
+            0.7529897644996391,
+            0.7264191215178766
+        ],
+        "gs_18": [
+            0.6997711673951539,
+            0.7337054165966728,
+            0.6850546103817247,
+            0.7593094325183578,
+            0.7324071394347796
+        ],
+        "gs_19": [
+            0.6861520688618172,
+            0.7026683133827095,
+            0.668060415247713,
+            0.7359517136748622,
+            0.7016986582520164
+        ],
+        "gs_2": [
+            0.7426639686921487,
+            0.7869459852639282,
+            0.7410174008424532,
+            0.8068551692953623,
+            0.7855523838580705
+        ],
+        "gs_20": [
+            0.6837692407913118,
+            0.7141544856744141,
+            0.6685389091247307,
+            0.7348393966016769,
+            0.710967416208633
+        ],
+        "gs_21": [
+            0.6982287886169989,
+            0.7312964625901861,
+            0.6917762572427869,
+            0.7549632505905973,
+            0.7295086343242136
+        ],
+        "gs_22": [
+            0.6987024962185221,
+            0.7350552561710165,
+            0.6830660392127257,
+            0.7611223509993159,
+            0.7294593980266882
+        ],
+        "gs_23": [
+            0.6812046634781997,
+            0.7004156483822458,
+            0.6673599038105846,
+            0.7366167067009377,
+            0.7039600851893724
+        ],
+        "gs_24": [
+            0.6832639293984675,
+            0.7084769381446223,
+            0.6657441509984122,
+            0.746519135736392,
+            0.7052925088120898
+        ],
+        "gs_25": [
+            0.6668031540643613,
+            0.6630711631408904,
+            0.6489208501050278,
+            0.6943620035654766,
+            0.6589840246675647
+        ],
+        "gs_26": [
+            0.6860657297388264,
+            0.7130085495704461,
+            0.6758393571345542,
+            0.7524139923625719,
+            0.7169410045174652
+        ],
+        "gs_27": [
+            0.6140177673381373,
+            0.650551048203992,
+            0.6297089885512155,
+            0.6779024739807895,
+            0.6320483770672534
+        ],
+        "gs_28": [
+            0.6704567998226435,
+            0.6936447076048027,
+            0.6550034254823336,
+            0.7339863749255893,
+            0.6915823055164751
+        ],
+        "gs_29": [
+            0.6874605975465639,
+            0.7163659641132291,
+            0.6781045780382776,
+            0.7442449277649689,
+            0.7129702976995792
+        ],
+        "gs_3": [
+            0.7192126482703796,
+            0.7570059241070823,
+            0.7036598998478776,
+            0.7813991650804176,
+            0.7628419270763532
+        ],
+        "gs_30": [
+            0.6828568023134254,
+            0.7232044828413385,
+            0.6756167497668861,
+            0.7510258852741528,
+            0.717263455365041
+        ],
+        "gs_31": [
+            0.6714197125589775,
+            0.6891919204601922,
+            0.6540349714695088,
+            0.7281526883408481,
+            0.6874324859494435
+        ],
+        "gs_32": [
+            0.6730854628786876,
+            0.6929464954174752,
+            0.6629288695684372,
+            0.7395251877217501,
+            0.705764724222548
+        ],
+        "gs_33": [
+            0.6878209625961995,
+            0.7089486442363585,
+            0.676125743692348,
+            0.743293528187623,
+            0.7068439411542621
+        ],
+        "gs_34": [
+            0.6888464642113359,
+            0.7163407023556354,
+            0.6783044728166094,
+            0.7499901032291185,
+            0.710842499311101
+        ],
+        "gs_35": [
+            0.6673917010819014,
+            0.682789119566068,
+            0.6528147895904525,
+            0.7308261460450685,
+            0.6886480556921399
+        ],
+        "gs_36": [
+            0.6730030555188103,
+            0.6912067430638731,
+            0.6588039654421556,
+            0.736763018962173,
+            0.6982782024843633
+        ],
+        "gs_4": [
+            0.7124056885786553,
+            0.7494827387719935,
+            0.7016133376002078,
+            0.7795866964526813,
+            0.7548098943044181
+        ],
+        "gs_5": [
+            0.7042948005646091,
+            0.7460433109884906,
+            0.7193251086035648,
+            0.7791897359729467,
+            0.7538563626518555
+        ],
+        "gs_6": [
+            0.7252161012764698,
+            0.7665793504895222,
+            0.718844645369109,
+            0.7828241301428169,
+            0.7513333366995767
+        ],
+        "gs_7": [
+            0.6906141310200782,
+            0.7260462156407608,
+            0.6902671596311556,
+            0.7615354362178708,
+            0.7337994768658357
+        ],
+        "gs_8": [
+            0.711002168896249,
+            0.7314496026236559,
+            0.6930981859238967,
+            0.7683998764882993,
+            0.7291097045580657
+        ],
+        "gs_9": [
+            0.7366098218875385,
+            0.7690344594365751,
+            0.7477366184961171,
+            0.7901981541462652,
+            0.7723726033753189
+        ]
+    },
+    "test_scores": {
+        "best": [
+            0.6226616372391653,
+            0.6928895361939926,
+            0.7080761299655192,
+            0.6510707788604094,
+            0.6756369467648626
+        ],
+        "gs_1": [
+            0.6152686998394863,
+            0.6907338890679284,
+            0.705219518990255,
+            0.6464521953174085,
+            0.6821422150594249
+        ],
+        "gs_10": [
+            0.6132409309791332,
+            0.6851392476321352,
+            0.6991953419533716,
+            0.6552795902214428,
+            0.6816157066449214
+        ],
+        "gs_11": [
+            0.6176494382022473,
+            0.6849075056046825,
+            0.7064228562029562,
+            0.6540183971930844,
+            0.6728835324862112
+        ],
+        "gs_12": [
+            0.6139375601926164,
+            0.6949076362982607,
+            0.7083534553628834,
+            0.6530896758767387,
+            0.6695512799933223
+        ],
+        "gs_13": [
+            0.6179757624398075,
+            0.6629162391233457,
+            0.7082469879114814,
+            0.6300770868975226,
+            0.6493447538573163
+        ],
+        "gs_14": [
+            0.614869341894061,
+            0.6844706384126276,
+            0.7049568567748205,
+            0.6676460715901169,
+            0.6645069120281489
+        ],
+        "gs_15": [
+            0.6087720706260031,
+            0.6610157632393392,
+            0.693758489105734,
+            0.6172750133960917,
+            0.6436701810033196
+        ],
+        "gs_16": [
+            0.61125569823435,
+            0.6783887649424996,
+            0.7048666463294708,
+            0.6639063226684186,
+            0.6560620702054024
+        ],
+        "gs_17": [
+            0.6118353130016051,
+            0.6692451553325052,
+            0.6972221876893663,
+            0.6305780258193132,
+            0.6530775058911155
+        ],
+        "gs_18": [
+            0.6164964686998395,
+            0.6861929247597071,
+            0.6982511605430349,
+            0.6546666054638204,
+            0.66694008719493
+        ],
+        "gs_19": [
+            0.613662760834671,
+            0.6573391297529031,
+            0.6910414971236256,
+            0.6302986284505894,
+            0.6455545353563241
+        ],
+        "gs_2": [
+            0.6226616372391653,
+            0.6928895361939926,
+            0.7080761299655192,
+            0.6510707788604094,
+            0.6756369467648626
+        ],
+        "gs_20": [
+            0.6135296950240771,
+            0.6822784927141518,
+            0.6999170255161679,
+            0.6484833647794833,
+            0.6628118117668209
+        ],
+        "gs_21": [
+            0.6170680577849117,
+            0.6738404690433134,
+            0.704614184588422,
+            0.6333355009341404,
+            0.6518589920574279
+        ],
+        "gs_22": [
+            0.6078831460674158,
+            0.6865316123857985,
+            0.7033367345540114,
+            0.6616153598743302,
+            0.6608215136474833
+        ],
+        "gs_23": [
+            0.6098402889245585,
+            0.6587987538845479,
+            0.6968524204928805,
+            0.6227391206362289,
+            0.6430805878915906
+        ],
+        "gs_24": [
+            0.6116587479935794,
+            0.6790211943544199,
+            0.7007416701172959,
+            0.6562526198484018,
+            0.647139518309009
+        ],
+        "gs_25": [
+            0.5998057784911718,
+            0.6429126307055317,
+            0.6877861113528412,
+            0.564192541604388,
+            0.6166497049626628
+        ],
+        "gs_26": [
+            0.6161963081861958,
+            0.679201615245119,
+            0.7008478188038733,
+            0.6659330294229496,
+            0.6510422619315154
+        ],
+        "gs_27": [
+            0.5677595505617977,
+            0.630270417763616,
+            0.6668980899292948,
+            0.5597468879787091,
+            0.6054177394810681
+        ],
+        "gs_28": [
+            0.6104125200642055,
+            0.6712680369091415,
+            0.704046623818299,
+            0.6579717185472357,
+            0.651721104640337
+        ],
+        "gs_29": [
+            0.6094349919743178,
+            0.6611345031364865,
+            0.698174975749966,
+            0.6292312444355616,
+            0.6447793801326545
+        ],
+        "gs_3": [
+            0.617497110754414,
+            0.6929937722916226,
+            0.7063563937370363,
+            0.6514472401182108,
+            0.6781633845501884
+        ],
+        "gs_30": [
+            0.6068845906902086,
+            0.6763537703025302,
+            0.6959683262519727,
+            0.6523179462364872,
+            0.6494730100229225
+        ],
+        "gs_31": [
+            0.6031563402889246,
+            0.6496427124463957,
+            0.6782988732619746,
+            0.6282022715818928,
+            0.6326929621234983
+        ],
+        "gs_32": [
+            0.6113451043338685,
+            0.6755202002863145,
+            0.6938453525204257,
+            0.6526596621284119,
+            0.6564070295294171
+        ],
+        "gs_33": [
+            0.6076582664526484,
+            0.6607020986519754,
+            0.6998754267065633,
+            0.6210732556630961,
+            0.6399011512555941
+        ],
+        "gs_34": [
+            0.6136818619582665,
+            0.6831791627259365,
+            0.706750865207425,
+            0.6553943455582831,
+            0.6526453837411633
+        ],
+        "gs_35": [
+            0.6006311396468701,
+            0.6477221543784422,
+            0.6814237248371032,
+            0.6233140129973169,
+            0.6357505634282119
+        ],
+        "gs_36": [
+            0.6080845906902087,
+            0.6711500939240556,
+            0.6967494594545487,
+            0.648166512543874,
+            0.6488814906608965
+        ],
+        "gs_4": [
+            0.6189563402889245,
+            0.6891379929737858,
+            0.7023397975652106,
+            0.6477028691065564,
+            0.6785799361769068
+        ],
+        "gs_5": [
+            0.6118303370786518,
+            0.6933753337866169,
+            0.692676123143952,
+            0.6534267696787073,
+            0.6748746332098392
+        ],
+        "gs_6": [
+            0.6171471910112359,
+            0.690659776246219,
+            0.6973895392222584,
+            0.6516021598229453,
+            0.6591687908926886
+        ],
+        "gs_7": [
+            0.6122733547351524,
+            0.6749647525795246,
+            0.7071714753934275,
+            0.6637769041496485,
+            0.6557151846310909
+        ],
+        "gs_8": [
+            0.6067410914927769,
+            0.6904635764967044,
+            0.7043333527779876,
+            0.680321754838611,
+            0.6670120005393501
+        ],
+        "gs_9": [
+            0.6051616372391653,
+            0.6830172301950618,
+            0.6980433258774241,
+            0.6476285969024347,
+            0.6794542932908703
+        ]
+    }
+}

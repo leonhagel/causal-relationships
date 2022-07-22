@@ -1,0 +1,165 @@
+{
+    "params": {
+        "best": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "GradientBoostingClassifier",
+                "selection_init": {
+                    "cv": 2
+                },
+                "predictive_init": {}
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_1": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "GradientBoostingClassifier",
+                "predictive_init": {}
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_2": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "GradientBoostingClassifier",
+                "selective_init": {
+                    "cv": 2
+                },
+                "predictive_init": {}
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_3": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "selection_model": "sfs",
+                "predictive_model": "GradientBoostingClassifier",
+                "selection_init": {
+                    "cv": 2
+                },
+                "predictive_init": {}
+            },
+            "fit": {
+                "predictive_params": {}
+            },
+            "predict": {}
+        }
+    },
+    "train_scores": {
+        "best": [
+            0.8610570698808824,
+            0.7815275331964686,
+            0.8297995829920614,
+            0.8437401144754488,
+            0.7231617722121313
+        ],
+        "gs_3": [
+            0.8610570698808824,
+            0.7815275331964686,
+            0.8297995829920614,
+            0.8437401144754488,
+            0.7231617722121313
+        ]
+    },
+    "test_scores": {
+        "best": [
+            0.801988282504013,
+            0.7640217474113906,
+            0.8224883164722679,
+            0.8200633130694535,
+            0.5795575082026159
+        ],
+        "gs_3": [
+            0.801988282504013,
+            0.7640217474113906,
+            0.8224883164722679,
+            0.8200633130694535,
+            0.5795575082026159
+        ]
+    }
+}

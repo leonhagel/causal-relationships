@@ -1,0 +1,44 @@
+{
+    "y": [
+        "TARGET"
+    ],
+    "parents": [],
+    "spouses": [
+        "fico",
+        "flag_fthb",
+        "cd_msa",
+        "mi_pct",
+        "cnt_units",
+        "occpy_sts",
+        "cltv",
+        "dti",
+        "orig_upb",
+        "ltv",
+        "int_rt",
+        "channel",
+        "st",
+        "prop_type",
+        "zipcode",
+        "loan_purpose",
+        "orig_loan_term",
+        "cnt_borr",
+        "seller_name"
+    ],
+    "children": [
+        "fico",
+        "flag_fthb",
+        "cd_msa",
+        "mi_pct",
+        "dti",
+        "orig_upb",
+        "int_rt",
+        "channel",
+        "st",
+        "zipcode",
+        "orig_loan_term",
+        "cnt_borr",
+        "seller_name",
+        "servicer_name",
+        "pgrm_ind"
+    ]
+}

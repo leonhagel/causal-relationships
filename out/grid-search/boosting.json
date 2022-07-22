@@ -1,0 +1,1636 @@
+{
+    "params": {
+        "best": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_1": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_10": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_11": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_12": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_13": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_14": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_15": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_16": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_17": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_18": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_19": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_2": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_20": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_21": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_22": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_23": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_24": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.01,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_25": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_26": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_27": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_28": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_29": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_3": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_30": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_31": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_32": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_33": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_34": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_35": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_36": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.001,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_4": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 1,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_5": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_6": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_7": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_8": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.25,
+                "min_samples_leaf": 1,
+                "max_depth": 2,
+                "max_features": "sqrt"
+            },
+            "fit": {},
+            "predict": {}
+        },
+        "gs_9": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "learning_rate": 0.1,
+                "subsample": 0.5,
+                "min_samples_leaf": 1,
+                "max_depth": 3,
+                "max_features": null
+            },
+            "fit": {},
+            "predict": {}
+        }
+    },
+    "train_scores": {
+        "best": [
+            0.9206555334835733,
+            0.9180592756195508,
+            0.9155818939396455,
+            0.9194904686498889,
+            0.9201447427399462
+        ],
+        "gs_1": [
+            0.9206555334835733,
+            0.9180592756195508,
+            0.9155818939396455,
+            0.9194904686498889,
+            0.9201447427399462
+        ],
+        "gs_10": [
+            0.9072314164717483,
+            0.9042867393226939,
+            0.9029449671161294,
+            0.9053438943941371,
+            0.9102738929212515
+        ],
+        "gs_11": [
+            0.8909032233831413,
+            0.8791982951802486,
+            0.8818075638280741,
+            0.8772824302886454,
+            0.8941838620660392
+        ],
+        "gs_12": [
+            0.8945971248074135,
+            0.8918518565762363,
+            0.8821723648008128,
+            0.8905720841403867,
+            0.8958472086921085
+        ],
+        "gs_13": [
+            0.8516794356494918,
+            0.8573099968942133,
+            0.8473053712034837,
+            0.856586782864487,
+            0.8608482442110778
+        ],
+        "gs_14": [
+            0.8704164124326101,
+            0.8741020579805222,
+            0.8609962041585071,
+            0.8743697006540707,
+            0.8849456697314981
+        ],
+        "gs_15": [
+            0.8273407641926469,
+            0.8341238520695466,
+            0.8204596404285209,
+            0.8314641898641312,
+            0.8415220693870156
+        ],
+        "gs_16": [
+            0.8462534428872889,
+            0.8600335082669227,
+            0.8444941784394587,
+            0.8523826945744143,
+            0.8669140083772756
+        ],
+        "gs_17": [
+            0.857499951900766,
+            0.8608043167675251,
+            0.850931138188232,
+            0.8623032976800329,
+            0.8648552046708182
+        ],
+        "gs_18": [
+            0.872030431128004,
+            0.8738608766731591,
+            0.8665520613934085,
+            0.876184868401138,
+            0.8778251072027076
+        ],
+        "gs_19": [
+            0.8297564534203425,
+            0.8391209416191685,
+            0.8230908919037896,
+            0.8357717244017622,
+            0.8450144037625074
+        ],
+        "gs_2": [
+            0.9156316583011255,
+            0.910693059068687,
+            0.9108681019556939,
+            0.9129427950248392,
+            0.9180205767009408
+        ],
+        "gs_20": [
+            0.8538968901709674,
+            0.8544468010977377,
+            0.8475331368880961,
+            0.8576538447035502,
+            0.8702356522644875
+        ],
+        "gs_21": [
+            0.8550058269926835,
+            0.8625034023898682,
+            0.8526845360895647,
+            0.8591369607924326,
+            0.8631723092188771
+        ],
+        "gs_22": [
+            0.8712702037739017,
+            0.8777536965238981,
+            0.8614070701011673,
+            0.872510717203191,
+            0.8773797751699416
+        ],
+        "gs_23": [
+            0.8304205521600467,
+            0.8364655380242535,
+            0.8227727457085302,
+            0.8350810297616091,
+            0.846050351827973
+        ],
+        "gs_24": [
+            0.8520533223717641,
+            0.8639626362710374,
+            0.8473621226866098,
+            0.8567054241542069,
+            0.8657807053627509
+        ],
+        "gs_25": [
+            0.7714358427668372,
+            0.8019199695523345,
+            0.8015933561197652,
+            0.7899746170819385,
+            0.8184682458113073
+        ],
+        "gs_26": [
+            0.8546323593923673,
+            0.8608529209089658,
+            0.8466038001120993,
+            0.8567092828951769,
+            0.8678454964584492
+        ],
+        "gs_27": [
+            0.7022779557737722,
+            0.7745192898461091,
+            0.7169213529009755,
+            0.7091741306646467,
+            0.7635446070776808
+        ],
+        "gs_28": [
+            0.8350503828499447,
+            0.8396756106417598,
+            0.8295604110290894,
+            0.83691069277916,
+            0.8574897978379977
+        ],
+        "gs_29": [
+            0.8341023389639641,
+            0.8348417978182079,
+            0.8203588633100792,
+            0.8339083423860462,
+            0.8470464837549856
+        ],
+        "gs_3": [
+            0.90305371858172,
+            0.8991418979815267,
+            0.8982848876068716,
+            0.9025263936882674,
+            0.9069330794094862
+        ],
+        "gs_30": [
+            0.8605925131087376,
+            0.8583744095976366,
+            0.8482394564301561,
+            0.859907349430028,
+            0.8667004082661016
+        ],
+        "gs_31": [
+            0.8077394880820477,
+            0.8160484996955194,
+            0.8031774092749018,
+            0.8112005015003705,
+            0.818176799661018
+        ],
+        "gs_32": [
+            0.8389463908689851,
+            0.8538259036841459,
+            0.8398535625796015,
+            0.846332148746507,
+            0.8568364140080879
+        ],
+        "gs_33": [
+            0.8232068944843313,
+            0.8351199670571487,
+            0.8199655616365492,
+            0.8302685399807752,
+            0.8435937958752517
+        ],
+        "gs_34": [
+            0.8534637176500719,
+            0.8645986287594083,
+            0.8486998862011302,
+            0.8554491940369696,
+            0.8730718086950902
+        ],
+        "gs_35": [
+            0.8065638909110968,
+            0.8105963986070627,
+            0.7951959034806122,
+            0.8019546682308495,
+            0.8080289632370506
+        ],
+        "gs_36": [
+            0.8338841261111621,
+            0.8468148312568575,
+            0.8352425470617447,
+            0.8414938873744275,
+            0.8598050015097203
+        ],
+        "gs_4": [
+            0.9027260650028617,
+            0.8992970573561259,
+            0.8980437562832,
+            0.8979121892109042,
+            0.9053999385414453
+        ],
+        "gs_5": [
+            0.8575726994974607,
+            0.8410297388168189,
+            0.8729453253992288,
+            0.882461790367039,
+            0.8829888013268693
+        ],
+        "gs_6": [
+            0.8877163098395386,
+            0.893036180155139,
+            0.8829576685718983,
+            0.9004330467055209,
+            0.8892993399442226
+        ],
+        "gs_7": [
+            0.8768488068236567,
+            0.8805705074548277,
+            0.863098308283973,
+            0.8768561893625348,
+            0.8707139149380791
+        ],
+        "gs_8": [
+            0.8842738416726494,
+            0.8621435797927852,
+            0.8736617816338884,
+            0.8829624170225739,
+            0.8834715146264636
+        ],
+        "gs_9": [
+            0.905577022361234,
+            0.8937919335679154,
+            0.8815641032643868,
+            0.905181937237518,
+            0.9073890789740832
+        ]
+    },
+    "test_scores": {
+        "best": [
+            0.8276988764044944,
+            0.8463030771324809,
+            0.8689232666126678,
+            0.8465364129840562,
+            0.8139820088222263
+        ],
+        "gs_1": [
+            0.8276988764044944,
+            0.8463030771324809,
+            0.8689232666126678,
+            0.8465364129840562,
+            0.8139820088222263
+        ],
+        "gs_10": [
+            0.8271752808988766,
+            0.840110751650644,
+            0.8706656351436943,
+            0.8362119390814919,
+            0.8028940305503296
+        ],
+        "gs_11": [
+            0.8247415730337079,
+            0.8472399269518528,
+            0.8760374599671226,
+            0.8358181051407522,
+            0.7944418047681115
+        ],
+        "gs_12": [
+            0.8283942215088282,
+            0.8474292732576394,
+            0.8721928374181451,
+            0.8305326655847789,
+            0.7968764246226154
+        ],
+        "gs_13": [
+            0.8008518459069022,
+            0.8227269119434485,
+            0.8260376034112937,
+            0.7988646553243767,
+            0.7510750081865637
+        ],
+        "gs_14": [
+            0.8119160513643661,
+            0.8359236162976804,
+            0.8401600008160379,
+            0.8022311306365191,
+            0.7839167731455026
+        ],
+        "gs_15": [
+            0.7806624398073836,
+            0.8069863049068425,
+            0.808306469427744,
+            0.77598355683529,
+            0.7283340182223277
+        ],
+        "gs_16": [
+            0.8019373996789727,
+            0.8250618642833258,
+            0.8297244373721155,
+            0.7896778530806547,
+            0.7719412750492798
+        ],
+        "gs_17": [
+            0.8116598715890851,
+            0.8195655617959083,
+            0.8296224326282574,
+            0.7966855789837076,
+            0.7536688647322833
+        ],
+        "gs_18": [
+            0.8211171749598716,
+            0.8421824042454373,
+            0.8501430775915022,
+            0.8078833091231449,
+            0.7685778815099233
+        ],
+        "gs_19": [
+            0.7966348314606742,
+            0.810434065249247,
+            0.8038555561824596,
+            0.7824460355059387,
+            0.7403047006928081
+        ],
+        "gs_2": [
+            0.8286436597110755,
+            0.8448912677245197,
+            0.8654474549657025,
+            0.8325456654518538,
+            0.8114231458235683
+        ],
+        "gs_20": [
+            0.8093338683788122,
+            0.823563828990322,
+            0.8247598346120584,
+            0.7834211371042574,
+            0.758892052933358
+        ],
+        "gs_21": [
+            0.8029303370786517,
+            0.8244229001925021,
+            0.8298723442507099,
+            0.7952033225495194,
+            0.751179346744316
+        ],
+        "gs_22": [
+            0.811807062600321,
+            0.8366808421384146,
+            0.8410219409016391,
+            0.7942674290246211,
+            0.7707044618377712
+        ],
+        "gs_23": [
+            0.7835754414125201,
+            0.8083187418734892,
+            0.8046588435403423,
+            0.7795154710913773,
+            0.7319320932561978
+        ],
+        "gs_24": [
+            0.8094833065810594,
+            0.8276223427365769,
+            0.8355270728559321,
+            0.7917276702849662,
+            0.766230263960499
+        ],
+        "gs_25": [
+            0.7139943820224719,
+            0.7812723434219212,
+            0.7741508184765018,
+            0.7314662958794228,
+            0.7130447275318955
+        ],
+        "gs_26": [
+            0.7975579454253612,
+            0.8173064754842755,
+            0.8277645118483292,
+            0.7754858055617448,
+            0.7656897902313426
+        ],
+        "gs_27": [
+            0.6844722311396468,
+            0.7500929996375645,
+            0.7064394319738332,
+            0.7090214270527418,
+            0.6622540017849919
+        ],
+        "gs_28": [
+            0.7868961476725522,
+            0.8029647678802362,
+            0.8189905100524082,
+            0.7671383111010808,
+            0.7593607738389526
+        ],
+        "gs_29": [
+            0.7989441412520064,
+            0.7991518624313023,
+            0.789180261189522,
+            0.7736004710069049,
+            0.7356736739371914
+        ],
+        "gs_3": [
+            0.8270155698234349,
+            0.8410432981448843,
+            0.8733172803367687,
+            0.8380367083196663,
+            0.806922783046429
+        ],
+        "gs_30": [
+            0.8131043338683788,
+            0.8259990328675223,
+            0.8193027401980614,
+            0.7828076741993982,
+            0.7570897247388326
+        ],
+        "gs_31": [
+            0.7903951845906901,
+            0.7949777964361455,
+            0.7935320385743688,
+            0.7610803449927943,
+            0.7022172746126631
+        ],
+        "gs_32": [
+            0.7994648475120385,
+            0.8245464215620177,
+            0.8242512453344784,
+            0.7719374749171929,
+            0.7479361833276615
+        ],
+        "gs_33": [
+            0.7808242375601926,
+            0.8022854800391059,
+            0.80124200338592,
+            0.7720217882132882,
+            0.7314001271325196
+        ],
+        "gs_34": [
+            0.7998667736757624,
+            0.8297206121942209,
+            0.8253315393249008,
+            0.7801106050188247,
+            0.7638232536935848
+        ],
+        "gs_35": [
+            0.7740497592295346,
+            0.7814840032654269,
+            0.784758674308097,
+            0.7558074966473911,
+            0.7061839055366854
+        ],
+        "gs_36": [
+            0.7969731942215088,
+            0.8200073698427437,
+            0.8185308511753975,
+            0.7697155247076208,
+            0.7648414374963883
+        ],
+        "gs_4": [
+            0.824332102728732,
+            0.8427335486270959,
+            0.8706739230291329,
+            0.8375309879255072,
+            0.7965187841508126
+        ],
+        "gs_5": [
+            0.7936208667736757,
+            0.7303867988010617,
+            0.8650768908571554,
+            0.8207406883216362,
+            0.7525819780022216
+        ],
+        "gs_6": [
+            0.8197043338683787,
+            0.8455839436882812,
+            0.8701218223530008,
+            0.8324132186672507,
+            0.8041703318929261
+        ],
+        "gs_7": [
+            0.8185581059390048,
+            0.8419870014079842,
+            0.8576163595208199,
+            0.826440362767121,
+            0.7752711197292976
+        ],
+        "gs_8": [
+            0.8229739967897272,
+            0.8144796690201074,
+            0.8681571153568461,
+            0.8317065170512087,
+            0.7777071842715242
+        ],
+        "gs_9": [
+            0.8212200642054575,
+            0.8434034329059017,
+            0.8686636326630666,
+            0.8315831550641053,
+            0.8042136725246078
+        ]
+    }
+}

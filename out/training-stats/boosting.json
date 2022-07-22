@@ -1,0 +1,28 @@
+{
+    "train_score": 0.9056668474749089,
+    "time": [
+        "00:12",
+        12.305877208709717
+    ],
+    "shapes": [
+        [
+            123823,
+            27
+        ],
+        [
+            123823
+        ]
+    ],
+    "params": {
+        "init": {
+            "learning_rate": 0.1,
+            "subsample": 1,
+            "min_samples_leaf": 1,
+            "max_depth": 3,
+            "max_features": null
+        },
+        "fit": {},
+        "predict": null,
+        "evaluate": {}
+    }
+}

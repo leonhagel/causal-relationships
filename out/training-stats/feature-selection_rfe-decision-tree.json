@@ -1,0 +1,57 @@
+{
+    "train_score": 0.5525255829512772,
+    "time": {
+        "total": [
+            "00:20",
+            20.569466590881348
+        ],
+        "predictive": [
+            "00:00",
+            0.023547887802124023
+        ]
+    },
+    "shapes": {
+        "selection": [
+            [
+                123823,
+                27
+            ],
+            [
+                123823
+            ]
+        ],
+        "predictive": [
+            [
+                123823,
+                1
+            ],
+            [
+                123823
+            ]
+        ]
+    },
+    "params": {
+        "init": {
+            "selection_model": "rfe",
+            "predictive_model": "DecisionTreeClassifier",
+            "selection_init": {
+                "step": 1,
+                "cv": 2,
+                "scoring": "accuracy"
+            },
+            "predictive_init": {
+                "max_depth": 3,
+                "max_features": "sqrt",
+                "min_samples_leaf": 0.1,
+                "class_weight": null,
+                "random_state": 123
+            }
+        },
+        "fit": {
+            "selection_params": {},
+            "predictive_params": {}
+        },
+        "predict": {},
+        "evaluate": null
+    }
+}

@@ -1,0 +1,94 @@
+{
+    "train_score": 0.8462247901663232,
+    "time": {
+        "total": [
+            "00:06",
+            6.26161003112793
+        ],
+        "causal": [
+            "00:05",
+            5.870508432388306
+        ],
+        "predictive": [
+            "00:00",
+            0.36305737495422363
+        ]
+    },
+    "shapes": {
+        "causal": [
+            [
+                3401,
+                27
+            ],
+            [
+                3401,
+                1
+            ]
+        ],
+        "predictive": [
+            [
+                123823,
+                5
+            ],
+            [
+                123823
+            ]
+        ]
+    },
+    "h_value": 0.0,
+    "params": {
+        "init": {
+            "causal_model": "Notears",
+            "predictive_model": "LogisticRegression",
+            "causal_init": {
+                "w_threshold": 0.01
+            },
+            "predictive_init": {
+                "penalty": "l2",
+                "C": 1,
+                "class_weight": null,
+                "n_jobs": -1
+            }
+        },
+        "fit": {
+            "X_labels": [
+                "fico",
+                "flag_fthb",
+                "cd_msa",
+                "mi_pct",
+                "cnt_units",
+                "occpy_sts",
+                "cltv",
+                "dti",
+                "orig_upb",
+                "ltv",
+                "int_rt",
+                "channel",
+                "ppmt_pnlty",
+                "prod_type",
+                "st",
+                "prop_type",
+                "zipcode",
+                "loan_purpose",
+                "orig_loan_term",
+                "cnt_borr",
+                "seller_name",
+                "servicer_name",
+                "flag_sc",
+                "pgrm_ind",
+                "rel_ref_ind",
+                "prop_val_meth",
+                "int_only_ind"
+            ],
+            "y_label": "TARGET",
+            "threshold": 0,
+            "causal_undersampling_ratio": 0.3,
+            "causal_params": {},
+            "predictive_undersampling_ratio": null,
+            "predictive_params": {},
+            "random_state": 123
+        },
+        "predict": {},
+        "evaluate": {}
+    }
+}

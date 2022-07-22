@@ -1,0 +1,1604 @@
+{
+    "params": {
+        "best": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.01,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_1": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.04,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_10": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.01,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_11": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.1,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_12": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.2,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_13": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": null,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_14": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.3,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_15": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.01,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_16": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.1,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_17": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.2,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_18": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": null,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_2": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.04,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_3": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.1
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.04,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_4": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.3,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_5": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.01,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_6": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.1,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_7": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.2,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_8": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.001
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": null,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        },
+        "gs_9": {
+            "train_test_split": {
+                "to_woe": [
+                    "zipcode",
+                    "cd_msa",
+                    "st",
+                    "seller_name",
+                    "servicer_name",
+                    "prop_val_meth",
+                    "prop_type",
+                    "flag_fthb",
+                    "pgrm_ind",
+                    "occpy_sts",
+                    "loan_purpose",
+                    "channel",
+                    "prod_type"
+                ],
+                "scaler": "StandardScaler"
+            },
+            "undersampling": {},
+            "init": {
+                "causal_model": "PC",
+                "predictive_model": "GradientBoostingClassifier",
+                "causal_init": {
+                    "alpha": 0.01
+                },
+                "predictive_init": {
+                    "learning_rate": 0.1,
+                    "subsample": 1,
+                    "min_samples_leaf": 1,
+                    "max_depth": 3,
+                    "max_features": null
+                }
+            },
+            "fit": {
+                "X_labels": [
+                    "fico",
+                    "flag_fthb",
+                    "cd_msa",
+                    "mi_pct",
+                    "cnt_units",
+                    "occpy_sts",
+                    "cltv",
+                    "dti",
+                    "orig_upb",
+                    "ltv",
+                    "int_rt",
+                    "channel",
+                    "ppmt_pnlty",
+                    "prod_type",
+                    "st",
+                    "prop_type",
+                    "zipcode",
+                    "loan_purpose",
+                    "orig_loan_term",
+                    "cnt_borr",
+                    "seller_name",
+                    "servicer_name",
+                    "flag_sc",
+                    "pgrm_ind",
+                    "rel_ref_ind",
+                    "prop_val_meth",
+                    "int_only_ind"
+                ],
+                "causal_undersampling_ratio": 0.3,
+                "predictive_undersampling_ratio": null,
+                "predictive_params": {}
+            },
+            "predict": {}
+        }
+    },
+    "train_scores": {
+        "best": [
+            0.9223125321376728,
+            0.9179673955981642,
+            0.9135335122856114,
+            0.9182374774758492,
+            0.9186922919209104
+        ],
+        "gs_1": [
+            0.9099024008662812,
+            0.9073105727063374,
+            0.9041007200170728,
+            0.9105987498399022,
+            0.9142594983593655
+        ],
+        "gs_10": [
+            0.9220139975556807,
+            0.9179673955981642,
+            0.911436226587989,
+            0.9182374774758492,
+            0.9186922919209104
+        ],
+        "gs_11": [
+            0.9229525014276092,
+            0.9033440269108994,
+            0.9033712280357165,
+            0.9159979981731561,
+            0.9142943848806767
+        ],
+        "gs_12": [
+            0.8973846051475999,
+            0.9032652526133773,
+            0.9074695608316917,
+            0.9159979981731561,
+            0.9108634511818519
+        ],
+        "gs_13": [
+            0.9222148168472976,
+            0.9179673955981642,
+            0.9126173612073852,
+            0.9182374774758492,
+            0.9191697263389903
+        ],
+        "gs_14": [
+            0.9227048203096441,
+            0.9105418883926553,
+            0.908152368045354,
+            0.9166558235378961,
+            0.9182773359095606
+        ],
+        "gs_15": [
+            0.9223125321376728,
+            0.9179673955981642,
+            0.9135335122856114,
+            0.9182374774758492,
+            0.9186922919209104
+        ],
+        "gs_16": [
+            0.9200753788842526,
+            0.9163942288909974,
+            0.9136386079949834,
+            0.9180096418140689,
+            0.9191697263389903
+        ],
+        "gs_17": [
+            0.9229855422084949,
+            0.9185159266234613,
+            0.909346798326642,
+            0.9163790638390505,
+            0.9185355121336339
+        ],
+        "gs_18": [
+            0.9222148168472976,
+            0.9182720362000285,
+            0.9135335122856114,
+            0.9182374774758492,
+            0.9186922919209104
+        ],
+        "gs_2": [
+            0.923095920969406,
+            0.9093669717444591,
+            0.9043434308253903,
+            0.9182374774758492,
+            0.9185355121336339
+        ],
+        "gs_3": [
+            0.9220139975556807,
+            0.9169354622973617,
+            0.9143627817115831,
+            0.9179825606501111,
+            0.918143757255593
+        ],
+        "gs_4": [
+            0.9149361054565128,
+            0.8989655655152836,
+            0.9003034589874015,
+            0.9121233124056283,
+            0.9122011636650654
+        ],
+        "gs_5": [
+            0.9223590746330068,
+            0.9167967375604688,
+            0.9126173612073852,
+            0.9162187261540305,
+            0.9184884712121636
+        ],
+        "gs_6": [
+            0.9063534857015945,
+            0.9070787083590366,
+            0.9031353449996335,
+            0.9087785937204409,
+            0.9084930836972551
+        ],
+        "gs_7": [
+            0.9070233723159331,
+            0.9052234436947912,
+            0.8975564352862948,
+            0.9139782971612022,
+            0.9104287567439707
+        ],
+        "gs_8": [
+            0.9228850327717446,
+            0.917790973161277,
+            0.911436226587989,
+            0.9191720625394346,
+            0.9184884712121636
+        ],
+        "gs_9": [
+            0.9174476039675921,
+            0.9167818124302403,
+            0.9042803114199899,
+            0.9166558235378961,
+            0.9137297940332113
+        ]
+    },
+    "test_scores": {
+        "best": [
+            0.8259210272873194,
+            0.8462538279670868,
+            0.8689529117413517,
+            0.8496279536350188,
+            0.8148634288539452
+        ],
+        "gs_1": [
+            0.8296404494382023,
+            0.8326355571323789,
+            0.8588432853305383,
+            0.8225847428316964,
+            0.7984989694560911
+        ],
+        "gs_10": [
+            0.8273685393258428,
+            0.8462566968505079,
+            0.8641119897332226,
+            0.84963783534458,
+            0.8148634288539452
+        ],
+        "gs_11": [
+            0.8291332263242375,
+            0.8313840864311697,
+            0.8668661178173916,
+            0.8443402827252735,
+            0.7982679799413137
+        ],
+        "gs_12": [
+            0.8156081861958266,
+            0.8350151365476941,
+            0.8646613809083459,
+            0.8443622774981678,
+            0.799236402278112
+        ],
+        "gs_13": [
+            0.8255906902086678,
+            0.8462621158525254,
+            0.8656624618398658,
+            0.8496254035164224,
+            0.8133794135209929
+        ],
+        "gs_14": [
+            0.8302292134831459,
+            0.8386050660018507,
+            0.8647614730632567,
+            0.8503228609525522,
+            0.8075048316778282
+        ],
+        "gs_15": [
+            0.8259210272873194,
+            0.8462538279670868,
+            0.8689529117413517,
+            0.8496279536350188,
+            0.8148634288539452
+        ],
+        "gs_16": [
+            0.8254102728731942,
+            0.8446630321101372,
+            0.8680799742693033,
+            0.8474413863209725,
+            0.8133794135209929
+        ],
+        "gs_17": [
+            0.8293168539325843,
+            0.8412600582255829,
+            0.8676639861732569,
+            0.8527959978438748,
+            0.8088008770859686
+        ],
+        "gs_18": [
+            0.8255906902086678,
+            0.8437665060410715,
+            0.8689474927393341,
+            0.8496295474591415,
+            0.8148659971876745
+        ],
+        "gs_2": [
+            0.829562760834671,
+            0.8404196347656394,
+            0.8594709332700904,
+            0.8496238096922996,
+            0.8087960614602262
+        ],
+        "gs_3": [
+            0.8273685393258428,
+            0.8452019040460501,
+            0.8686398846836372,
+            0.8456359023546839,
+            0.8105576173567994
+        ],
+        "gs_4": [
+            0.8192951845906902,
+            0.8291591079557643,
+            0.8640914294020388,
+            0.8275357980867097,
+            0.8015745490969096
+        ],
+        "gs_5": [
+            0.8252558587479936,
+            0.8391504726166671,
+            0.865666605782585,
+            0.8484365701032384,
+            0.8170943477395453
+        ],
+        "gs_6": [
+            0.8206521669341894,
+            0.8411951895837857,
+            0.8633742085467861,
+            0.831255464824461,
+            0.7984413424680402
+        ],
+        "gs_7": [
+            0.817716051364366,
+            0.8393767956421023,
+            0.8611811065538366,
+            0.8241879705168038,
+            0.800265662020123
+        ],
+        "gs_8": [
+            0.8278401284109149,
+            0.8466353894620812,
+            0.864111670968398,
+            0.8476125630317595,
+            0.8170943477395453
+        ],
+        "gs_9": [
+            0.8275556982343499,
+            0.8413521812598797,
+            0.8661528815224463,
+            0.8503088353002717,
+            0.7957503708031822
+        ]
+    }
+}

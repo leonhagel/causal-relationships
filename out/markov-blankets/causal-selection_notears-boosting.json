@@ -1,0 +1,16 @@
+{
+    "y": [
+        "TARGET"
+    ],
+    "parents": [],
+    "spouses": [
+        "fico",
+        "channel",
+        "seller_name"
+    ],
+    "children": [
+        "fico",
+        "zipcode",
+        "servicer_name"
+    ]
+}
